@@ -1,0 +1,22 @@
+h3{
+    text-align: center;
+    padding: 10px 10px 10px 10px;
+    margin-top:60px;
+    margin-bottom: 60px;
+}
+
+.card:hover{
+    border:2px solid rgb(7, 7, 77);
+}
+
+#con{
+    text-align-last: justify;
+}
+@media (max-width:988px) {
+    #coni{
+        display: none;
+    }
+    #con{
+        text-align-last: center;
+    }
+}

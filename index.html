@@ -1,0 +1,628 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-GLhlTQ8iRABdZLl6O3oVMWSktQOp6b7In1Zl3/Jr59b6EGGoI1aFkw7cmDA6j6gD" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.3.0/css/all.min.css"
+        integrity="sha512-SzlrxWUlpfuzQ+pcUCosxcglQRNAq/DZjVsC0lE40xsADsfeQoEypE+enwcOiGjk/bSuGGKHEyjSoQ1zVisanQ=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="stylesheet" href="app.css">
+    <title>Document</title>
+</head>
+
+<body>
+
+
+
+<!--upper section-->
+    <div class="container" id="con">
+        <img src="logofl.gif" alt="">
+        <img id="coni" src="fbl.jpg" alt="">
+    </div>
+
+    <!--navbar-->
+    <nav class="navbar navbar-expand-lg " style="background-color:#0058a2">
+        <div class="container">
+            <a class="navbar-brand" href="#"><i class="fa fa-home" style="color:white"></i></a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarTogglerDemo02"
+                aria-controls="navbarTogglerDemo02" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarTogglerDemo02">
+                <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+
+                    <li class="nav-item dropdown">
+                        <a style="color:white;" class="nav-link dropdown-toggle" href="#" role="button"
+                            data-bs-toggle="dropdown" aria-expanded="false">
+                            Properties for Sale
+                        </a>
+                        <ul class="dropdown-menu">
+                            <li><a style="color:black;" class="dropdown-item" href="#">Action</a></li>
+                            <li><a style="color:black;" class="dropdown-item" href="#">Another action</a></li>
+                            <li>
+                                <hr class="dropdown-divider">
+                            </li>
+                            <li><a style="color:black;" class="dropdown-item" href="#">Something else here</a></li>
+                        </ul>
+                    </li>
+
+
+                    <li class="nav-item dropdown">
+                        <a style="color:white;" class="nav-link dropdown-toggle" href="#" role="button"
+                            data-bs-toggle="dropdown" aria-expanded="false">
+                            Properties for Rent
+                        </a>
+                        <ul class="dropdown-menu">
+                            <li><a style="color:black;" class="dropdown-item" href="#">Action</a></li>
+                            <li><a style="color:black;" class="dropdown-item" href="#">Another action</a></li>
+                            <li>
+                                <hr class="dropdown-divider">
+                            </li>
+                            <li><a style="color:black;" class="dropdown-item" href="#">Something else here</a></li>
+                        </ul>
+                    </li>
+
+
+                    <li class="nav-item dropdown">
+                        <a style="color:white;" class="nav-link dropdown-toggle" href="#" role="button"
+                            data-bs-toggle="dropdown" aria-expanded="false">
+                            Foreign
+                        </a>
+                        <ul class="dropdown-menu">
+                            <li><a style="color:black;" class="dropdown-item" href="#">Action</a></li>
+                            <li><a style="color:black;" class="dropdown-item" href="#">Another action</a></li>
+                            <li>
+                                <hr class="dropdown-divider">
+                            </li>
+                            <li><a style="color:black;" class="dropdown-item" href="#">Something else here</a></li>
+                        </ul>
+                    </li>
+                </ul>
+                <form class="d-flex" role="search">
+                    <ul class="navbar-nav">
+                        <li class="nav-item dropdown">
+                            <a style="color: white;" class="nav-link dropdown-toggle" href="#" role="button"
+                                data-bs-toggle="dropdown" aria-expanded="false">
+                                My Account
+                            </a>
+                            <ul class="dropdown-menu">
+                                <li><a style="color: black;" class="dropdown-item" href="#">Action</a></li>
+                                <li><a style="color: black;" class="dropdown-item" href="#">Another action</a></li>
+                                <li>
+                                    <hr class="dropdown-divider">
+                                </li>
+                                <li><a style="color: black;" class="dropdown-item" href="#">Something else here</a></li>
+                            </ul>
+                        </li>
+                    </ul>
+                    <button class="btn btn-success" type="submit">+ add an Advertisement</button>
+                </form>
+            </div>
+        </div>
+    </nav>
+
+
+    <!--banner section-->
+
+    <div class="container mt-2">
+        <div class="row">
+            <div class="col-lg-8 col-md-12 ">
+
+                <div id="carouselExampleIndicators" class="carousel slide" data-bs-ride="true">
+                    <div class="carousel-indicators">
+                        <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="0"
+                            class="active" aria-current="true" aria-label="Slide 1"></button>
+                        <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="1"
+                            aria-label="Slide 2"></button>
+                        <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="2"
+                            aria-label="Slide 3"></button>
+                    </div>
+                    <div class="carousel-inner">
+                        <div class="carousel-item active">
+                            <img src="fb1.jpg" class="d-block w-100" alt="...">
+                        </div>
+                        <div class="carousel-item">
+                            <img src="fb2.jpg" class="d-block w-100" alt="...">
+                        </div>
+                   
+                    </div>
+                    <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleIndicators"
+                        data-bs-slide="prev">
+                        <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                        <span class="visually-hidden">Previous</span>
+                    </button>
+                    <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleIndicators"
+                        data-bs-slide="next">
+                        <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                        <span class="visually-hidden">Next</span>
+                    </button>
+                </div>
+
+                <!--card add-->
+                <div style="display: inline-flex;margin-top: 10px;">
+                    <div class="card mb-3" style="max-width: 540px;">
+                        <div class="row g-0">
+                            <div class="col-md-4">
+                                <img src="card.jpg" class="img-fluid rounded-start" alt="...">
+                            </div>
+                            <div class="col-md-8">
+                                <div class="card-body">
+                                    <h5 class="card-title">3 Room Apartment</h5>
+                                    <p class="card-text">$ 2100</p>
+                                    <button class="btn btn-primary">Look</button>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="card mb-3" style="max-width: 540px;">
+                        <div class="row g-0">
+                            <div class="col-md-4">
+                                <img src="card.jpg" class="img-fluid rounded-start" alt="...">
+                            </div>
+                            <div class="col-md-8">
+                                <div class="card-body">
+                                    <h5 class="card-title">3 Room Apartment</h5>
+                                    <p class="card-text">$2000</p>
+                                    <button class="btn btn-primary">Look</button>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+            </div>
+            <div class="col-lg-4 ">
+                <div class="mb-3 p-2 row">
+
+                    <div class="mb-3 row">
+                        <label for="inputPassword" class="col-sm-4 col-form-label">Location</label>
+                        <div class="col">
+                            <input type="password" class="form-control" id="inputPassword">
+                        </div>
+                    </div>
+
+                    <div class="mb-3 row">
+                        <label for="inputPassword" class="col-sm-4 col-form-label">Street/ID</label>
+                        <div class="col">
+                            <input type="password" class="form-control" id="inputPassword">
+                        </div>
+                    </div>
+
+                    <div class="mb-3 row">
+                        <label for="inputPassword" class="col-sm-4 col-form-label">Kind of</label>
+                        <div class="col">
+                            <input type="password" class="form-control" id="inputPassword">
+                        </div>
+                    </div>
+
+                    <div class="mb-3 row">
+                        <label for="inputPassword" class="col-sm-4 col-form-label">Type</label>
+                        <div class="col">
+                            <input type="password" class="form-control" id="inputPassword">
+                        </div>
+                    </div>
+
+                    <div class="mb-3 row">
+                        <label for="inputPassword" class="col-sm-4 col-form-label">The price</label>
+                        <div class="col input-group">
+                            <input type="password" class="form-control" id="inputPassword">
+                            <span class="input-group-text">$</span>
+                        </div>
+                        <div class="col input-group">
+                            <input type="password" class="form-control" id="inputPassword">
+                            <span class="input-group-text">$</span>
+                        </div>
+                    </div>
+
+
+                    <div class="mb-3 row">
+                        <label for="inputPassword" class="col-sm-4 col-form-label">Area</label>
+                        <div class="col input-group">
+                            <input type="password" class="form-control" id="inputPassword">
+                            <span class="input-group-text">$</span>
+                        </div>
+                        <div class="col input-group">
+                            <input type="password" class="form-control" id="inputPassword">
+                            <span class="input-group-text">$</span>
+                        </div>
+                    </div>
+
+                    <div class="mb-3 row">
+                        <label for="inputPassword" class="col-sm-4 col-form-label">Condition</label>
+                        <div class="col">
+                            <!-- <input type="password" class="form-control" id="inputPassword"> -->
+                            <select class="form-select" id="inputGroupSelect01">
+                                <option selected>Choose...</option>
+                                <option value="1">One</option>
+                                <option value="2">Two</option>
+                                <option value="3">Three</option>
+                            </select>
+                        </div>
+                    </div>
+
+                    <div class="mb-3 row">
+                        <label for="inputPassword" class="col-sm-4 col-form-label">Added</label>
+                        <div class="col">
+                            <!-- <input type="password" class="form-control" id="inputPassword"> -->
+                            <select class="form-select" id="inputGroupSelect01">
+                                <option selected>Choose...</option>
+                                <option value="1">One</option>
+                                <option value="2">Two</option>
+                                <option value="3">Three</option>
+                            </select>
+                        </div>
+                    </div>
+
+                    <div class="row text-align-center">
+                        <div class="col">
+                            <input class="form-check-input" type="checkbox" value="" id="flexCheckChecked">
+                            <label class="form-check-label" for="flexCheckChecked">
+                                Only with photos
+                            </label>
+                        </div>
+                        <div class="col">
+                            <input class="form-check-input" type="checkbox" value="" id="flexCheckChecked">
+                            <label class="form-check-label" for="flexCheckChecked">
+                                Only private
+                            </label>
+                        </div>
+                    </div>
+                    <a class="col-5 btn btn-primary p-2 m-3">Search ads</a>
+                </div>
+            </div>
+        </div>
+
+
+
+
+
+        <h3>TOP advertisements</h3>
+
+        <!--column grid content-->
+
+        <div class="row">
+            <div class="col">
+                <div class="card" style="width: 14rem;">
+                    <img src="grid.jpg" class="card-img-top" alt="...">
+                    <div class="card-body">
+                        <h6 class="card-text">Administrative premises, 22.00 m²</h6>
+                        <p>Pezinok</p>
+                    </div>
+                </div>
+            </div>
+            <div class="col">
+                <div class="card" style="width: 14rem;">
+                    <img src="grid.jpg" class="card-img-top" alt="...">
+                    <div class="card-body">
+                        <h6 class="card-text">Administrative premises, 22.00 m²</h6>
+                        <p>Pezinok</p>
+                    </div>
+                </div>
+            </div>
+            <div class="col">
+                <div class="card" style="width: 14rem;">
+                    <img src="grid.jpg" class="card-img-top" alt="...">
+                    <div class="card-body">
+                        <h6 class="card-text">Administrative premises, 22.00 m²</h6>
+                        <p>Pezinok</p>
+                    </div>
+                </div>
+            </div>
+            <div class="col">
+                <div class="card" style="width: 14rem;">
+                    <img src="grid.jpg" class="card-img-top" alt="...">
+                    <div class="card-body">
+                        <h6 class="card-text">Administrative premises, 22.00 m²</h6>
+                        <p>Pezinok</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <div class="row mt-3 mb-3">
+            <div class="col">
+                <div class="card" style="width: 14rem;">
+                    <img src="grid.jpg" class="card-img-top" alt="...">
+                    <div class="card-body">
+                        <h6 class="card-text">Administrative premises, 22.00 m²</h6>
+                        <p>Pezinok</p>
+                    </div>
+                </div>
+            </div>
+            <div class="col">
+                <div class="card" style="width: 14rem;">
+                    <img src="grid.jpg" class="card-img-top" alt="...">
+                    <div class="card-body">
+                        <h6 class="card-text">Administrative premises, 22.00 m²</h6>
+                        <p>Pezinok</p>
+                    </div>
+                </div>
+            </div>
+            <div class="col">
+                <div class="card" style="width: 14rem;">
+                    <img src="grid.jpg" class="card-img-top" alt="...">
+                    <div class="card-body">
+                        <h6 class="card-text">Administrative premises, 22.00 m²</h6>
+                        <p>Pezinok</p>
+                    </div>
+                </div>
+            </div>
+            <div class="col">
+                <div class="card" style="width: 14rem;">
+                    <img src="grid.jpg" class="card-img-top" alt="...">
+                    <div class="card-body">
+                        <h6 class="card-text">Administrative premises, 22.00 m²</h6>
+                        <p>Pezinok</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <div class="row mt-3 mb-3">
+            <div class="col">
+                <div class="card" style="width: 14rem;">
+                    <img src="grid.jpg" class="card-img-top" alt="...">
+                    <div class="card-body">
+                        <h6 class="card-text">Administrative premises, 22.00 m²</h6>
+                        <p>Pezinok</p>
+                    </div>
+                </div>
+            </div>
+            <div class="col">
+                <div class="card" style="width: 14rem;">
+                    <img src="grid.jpg" class="card-img-top" alt="...">
+                    <div class="card-body">
+                        <h6 class="card-text">Administrative premises, 22.00 m²</h6>
+                        <p>Pezinok</p>
+                    </div>
+                </div>
+            </div>
+            <div class="col">
+                <div class="card" style="width: 14rem;">
+                    <img src="grid.jpg" class="card-img-top" alt="...">
+                    <div class="card-body">
+                        <h6 class="card-text">Administrative premises, 22.00 m²</h6>
+                        <p>Pezinok</p>
+                    </div>
+                </div>
+            </div>
+            <div class="col">
+                <div class="card" style="width: 14rem;">
+                    <img src="grid.jpg" class="card-img-top" alt="...">
+                    <div class="card-body">
+                        <h6 class="card-text">Administrative premises, 22.00 m²</h6>
+                        <p>Pezinok</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <div class="row mt-3 mb-3">
+            <div class="col">
+                <div class="card" style="width: 14rem;">
+                    <img src="grid.jpg" class="card-img-top" alt="...">
+                    <div class="card-body">
+                        <h6 class="card-text">Administrative premises, 22.00 m²</h6>
+                        <p>Pezinok</p>
+                    </div>
+                </div>
+            </div>
+            <div class="col">
+                <div class="card" style="width: 14rem;">
+                    <img src="grid.jpg" class="card-img-top" alt="...">
+                    <div class="card-body">
+                        <h6 class="card-text">Administrative premises, 22.00 m²</h6>
+                        <p>Pezinok</p>
+                    </div>
+                </div>
+            </div>
+            <div class="col">
+                <div class="card" style="width: 14rem;">
+                    <img src="grid.jpg" class="card-img-top" alt="...">
+                    <div class="card-body">
+                        <h6 class="card-text">Administrative premises, 22.00 m²</h6>
+                        <p>Pezinok</p>
+                    </div>
+                </div>
+            </div>
+            <div class="col">
+                <div class="card" style="width: 14rem;">
+                    <img src="grid.jpg" class="card-img-top" alt="...">
+                    <div class="card-body">
+                        <h6 class="card-text">Administrative premises, 22.00 m²</h6>
+                        <p>Pezinok</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <!--latest ads-->
+
+        <h3>Latest ads</h3>
+
+        <!--column grid content-->
+
+        <div class="row">
+            <div class="col">
+                <div class="card" style="width: 14rem;">
+                    <img src="grid.jpg" class="card-img-top" alt="...">
+                    <div class="card-body">
+                        <h6 class="card-text">Administrative premises, 22.00 m²</h6>
+                        <p>Pezinok</p>
+                    </div>
+                </div>
+            </div>
+            <div class="col">
+                <div class="card" style="width: 14rem;">
+                    <img src="grid.jpg" class="card-img-top" alt="...">
+                    <div class="card-body">
+                        <h6 class="card-text">Administrative premises, 22.00 m²</h6>
+                        <p>Pezinok</p>
+                    </div>
+                </div>
+            </div>
+            <div class="col">
+                <div class="card" style="width: 14rem;">
+                    <img src="grid.jpg" class="card-img-top" alt="...">
+                    <div class="card-body">
+                        <h6 class="card-text">Administrative premises, 22.00 m²</h6>
+                        <p>Pezinok</p>
+                    </div>
+                </div>
+            </div>
+            <div class="col">
+                <div class="card" style="width: 14rem;">
+                    <img src="grid.jpg" class="card-img-top" alt="...">
+                    <div class="card-body">
+                        <h6 class="card-text">Administrative premises, 22.00 m²</h6>
+                        <p>Pezinok</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <div class="row mt-3 mb-3">
+            <div class="col">
+                <div class="card" style="width: 14rem;">
+                    <img src="grid.jpg" class="card-img-top" alt="...">
+                    <div class="card-body">
+                        <h6 class="card-text">Administrative premises, 22.00 m²</h6>
+                        <p>Pezinok</p>
+                    </div>
+                </div>
+            </div>
+            <div class="col">
+                <div class="card" style="width: 14rem;">
+                    <img src="grid.jpg" class="card-img-top" alt="...">
+                    <div class="card-body">
+                        <h6 class="card-text">Administrative premises, 22.00 m²</h6>
+                        <p>Pezinok</p>
+                    </div>
+                </div>
+            </div>
+            <div class="col">
+                <div class="card" style="width: 14rem;">
+                    <img src="grid.jpg" class="card-img-top" alt="...">
+                    <div class="card-body">
+                        <h6 class="card-text">Administrative premises, 22.00 m²</h6>
+                        <p>Pezinok</p>
+                    </div>
+                </div>
+            </div>
+            <div class="col">
+                <div class="card" style="width: 14rem;">
+                    <img src="grid.jpg" class="card-img-top" alt="...">
+                    <div class="card-body">
+                        <h6 class="card-text">Administrative premises, 22.00 m²</h6>
+                        <p>Pezinok</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <div class="row mt-3 mb-3">
+            <div class="col">
+                <div class="card" style="width: 14rem;">
+                    <img src="grid.jpg" class="card-img-top" alt="...">
+                    <div class="card-body">
+                        <h6 class="card-text">Administrative premises, 22.00 m²</h6>
+                        <p>Pezinok</p>
+                    </div>
+                </div>
+            </div>
+            <div class="col">
+                <div class="card" style="width: 14rem;">
+                    <img src="grid.jpg" class="card-img-top" alt="...">
+                    <div class="card-body">
+                        <h6 class="card-text">Administrative premises, 22.00 m²</h6>
+                        <p>Pezinok</p>
+                    </div>
+                </div>
+            </div>
+            <div class="col">
+                <div class="card" style="width: 14rem;">
+                    <img src="grid.jpg" class="card-img-top" alt="...">
+                    <div class="card-body">
+                        <h6 class="card-text">Administrative premises, 22.00 m²</h6>
+                        <p>Pezinok</p>
+                    </div>
+                </div>
+            </div>
+            <div class="col">
+                <div class="card" style="width: 14rem;">
+                    <img src="grid.jpg" class="card-img-top" alt="...">
+                    <div class="card-body">
+                        <h6 class="card-text">Administrative premises, 22.00 m²</h6>
+                        <p>Pezinok</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <div class="row mt-3 mb-3">
+            <div class="col">
+                <div class="card" style="width: 14rem;">
+                    <img src="grid.jpg" class="card-img-top" alt="...">
+                    <div class="card-body">
+                        <h6 class="card-text">Administrative premises, 22.00 m²</h6>
+                        <p>Pezinok</p>
+                    </div>
+                </div>
+            </div>
+            <div class="col">
+                <div class="card" style="width: 14rem;">
+                    <img src="grid.jpg" class="card-img-top" alt="...">
+                    <div class="card-body">
+                        <h6 class="card-text">Administrative premises, 22.00 m²</h6>
+                        <p>Pezinok</p>
+                    </div>
+                </div>
+            </div>
+            <div class="col">
+                <div class="card" style="width: 14rem;">
+                    <img src="grid.jpg" class="card-img-top" alt="...">
+                    <div class="card-body">
+                        <h6 class="card-text">Administrative premises, 22.00 m²</h6>
+                        <p>Pezinok</p>
+                    </div>
+                </div>
+            </div>
+            <div class="col">
+                <div class="card" style="width: 14rem;">
+                    <img src="grid.jpg" class="card-img-top" alt="...">
+                    <div class="card-body">
+                        <h6 class="card-text">Administrative premises, 22.00 m²</h6>
+                        <p>Pezinok</p>
+                    </div>
+                </div>
+            </div>
+
+
+        </div>
+
+
+    <footer>
+        <p>© 1999 - 2023, BYT.SK - Free real estate advertising <span><a class='me-2' href=""> Contact Admin</a
+                    class='me-2' href=''></span><a class='me-2' href=""> Registration</a><a class='me-2' href="">
+                Login</a></p>
+    </footer>
+
+
+</div>
+
+
+
+
+    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.6/dist/umd/popper.min.js"
+        integrity="sha384-oBqDVmMz9ATKxIep9tiCxS/Z9fNfEXiDAYTujMAeBAsjFuCZSmKbSSUnQlmh/jp3"
+        crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/js/bootstrap.min.js"
+        integrity="sha384-mQ93GR66B00ZXjt0YO5KlohRA5SY2XofN4zfuZxLkoj1gXtW8ANNCe9d5Y3eG5eD"
+        crossorigin="anonymous"></script>
+</body>
+
+</html>
